@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.SortTestDOW">
+      <class name="com.testcases.OrderTest">
         <methods>
-          <include name="closeSetup"/>
           <include name="closeReportSetup"/>
-          <include name="launchBrowser"/>
-          <include name="dowSortItems"/>
+          <include name="closeSetup"/>
           <include name="reportSetup"/>
+          <include name="launchBrowser"/>
+          <include name="loginAndOrderTest"/>
         </methods>
-      </class> <!-- com.testcases.SortTestDOW -->
+      </class> <!-- com.testcases.OrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
