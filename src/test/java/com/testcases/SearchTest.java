@@ -61,5 +61,12 @@ public class SearchTest extends Base{
 		dp.searchAction(item,test);
 		test.log(Status.INFO, "Test completed for "+item);
 	}
-	
+	@Test
+	public void changeLocation()
+	{
+		ExtentTest test = extent.createTest("BigBasket Search & Sort Test");
+		test.log(Status.INFO, "Test started for Change location");
+		dp.changeLocation();
+		test.log(Status.INFO, "Test completed for Change location");
+	}
 }
