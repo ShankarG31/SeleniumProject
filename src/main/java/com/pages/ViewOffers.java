@@ -15,7 +15,7 @@ import com.aventstack.extentreports.Status;
 import com.base.Base;
 
 
-public class ViewOffer extends Base {
+public class ViewOffers extends Base {
 	@FindBy(xpath="//span[text() ='OFFERS']")
 	WebElement offersIcon;
 	
