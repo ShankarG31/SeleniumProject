@@ -8,6 +8,7 @@
       <class name="com.testcases.SearchTest"/>
       <class name="com.testcases.SortTestDOW"/>
       <class name="com.testcases.OrderItemTest"/>
+      <class name="com.testcases.ViewOfferTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
